@@ -1,5 +1,5 @@
 # Preload Resources - Atom for Gantry
-This project contains a Gantry Atom that provides the functionality to manually define which static resources should be preloaded within the Gantry templating framework. **Preload Resource** encapsulates the parameterization of `link` tags to control the resource (pre-)loading behaviour. Furthermore, it provides an easy, user friendly and GUI assisted configuration and integration. In the current revision the following CMSs are supported:
+This project contains a Gantry Atom that provides the functionality to manually define which static resources should be preloaded within the Gantry templating framework. **Preload Resource** encapsulates the parameterization of `<link>` tags to control the resource (pre-)loading behaviour. Furthermore, it provides an easy, user friendly and GUI assisted configuration and integration. In the current revision the following CMSs are supported:
 * Joomla
 * Wordpress
 * Grav
@@ -56,7 +56,7 @@ Please be aware that the template folder path varies in dependence of the used C
 3. Configure the appearance according to your favor.
 
 ## Supported Parameters and Atom Options
-* Supports multiple `link` tags for preloading of resources
+* Supports multiple `<link>` tags for preloading of resources
 * Selective deactivation of resources
 * Options to define resource type and origin 
 
