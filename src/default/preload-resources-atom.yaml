@@ -1,0 +1,58 @@
+#######################################################
+#                                                     #
+#   Preload Resources - Atom for Gantry               #
+#                                                     #
+#   Purpose: This project provides the functionality  #
+#            to manually define which static          #
+#            resources should be preloaded.           #
+#                                                     #
+#   Author: Andreas Kar (thex) <andreas.kar@gmx.at>   #
+#   Repository: https://git.io/fjVkM                  #
+#   Homepage: https://gantryprojects.com              #
+#                                                     #
+#######################################################
+
+name: Preload Resources
+description: Renders links for preloading resources to the HTML head.
+type: atom
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the Favicon Generator Atom.
+      default: true
+
+    tabs:
+      type: container.tabs
+      fields:
+        tab_general:
+            label: General
+            fields:
+                resources:
+                  type: collection.list
+                  array: true
+                  label: Resources
+                  description: Create a new item for every resource you want to preload.
+                  value: title
+                  ajax: true
+                  fields:
+                    .enabled:
+                      type: input.checkbox
+                      label: Enable
+                      description: Enables this resource item to be applied.
+                      default: 1
+                    .path:
+                      type: input.text
+                      description: Path to the resources which should be preloaded.
+                      label: Path
+                    .xorigin:
+                      type: input.checkbox
+                      label: Crossorigin
+                      description: Enable if the 'crossorigin'-attribute should be applied.
+                      default: 1
+                    .as:
+                      type: input.text
+                      description: Value of the 'as'-attribute. Leave empty for not applying the attribute.
+                      label: As

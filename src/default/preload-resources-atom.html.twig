@@ -1,0 +1,30 @@
+{#######################################################}
+{#                                                     #}
+{#   Preload Resources - Atom for Gantry               #}
+{#                                                     #}
+{#   Purpose: This project provies the functionality   #}
+{#            to manually define which static          #}
+{#            resources should be preloaded.           #}
+{#                                                     #}
+{#   Author: Andreas Kar (thex) <andreas.kar@gmx.at>   #}
+{#   Repository: https://git.io/fjVkM                  #}
+{#   Homepage: https://gantryprojects.com              #}
+{#                                                     #}
+{#######################################################}
+
+{% extends '@nucleus/partials/particle.html.twig' %}
+{%- pageblock head_bottom -%}
+    {%- set attributes = '' -%}
+    {%- for resItem in particle.resources -%}
+        {%- if resItem.enabled and resItem.path|length > 0 -%}
+            {%- set attributes = ' href="' ~ resItem.path ~ '"' -%}
+            {%- if resItem.as|length > 0 -%}
+                {%- set attributes = attributes ~ ' as="' ~ resItem.as ~ '"' -%}
+            {%- endif -%}
+            {%- if resItem.xorigin -%}
+                {%- set attributes = attributes ~ ' crossorigin' -%}
+            {%- endif -%}
+            <link rel="preload"{{attributes|raw}}>
+        {%- endif -%}
+    {%- endfor -%}
+{%- endpageblock -%}

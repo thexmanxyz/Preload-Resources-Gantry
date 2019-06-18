@@ -1,0 +1,56 @@
+#######################################################
+#                                                     #
+#   Preload Resources - Atom for Gantry               #
+#                                                     #
+#   Purpose: This project provides the functionality  #
+#            to manually define which static          #
+#            resources should be preloaded.           #
+#                                                     #
+#   Author: Andreas Kar (thex) <andreas.kar@gmx.at>   #
+#   Repository: https://git.io/fjVkM                  #
+#   Homepage: https://gantryprojects.com              #
+#                                                     #
+#######################################################
+
+name: Preload Resources
+description: Rendert Links für das Vorladen von Resourcen in den HTML Head.
+type: atom
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Aktiviert
+      description: Globale Aktivierung des Favicon Generator Atoms.
+      default: true
+
+    set_general:
+      type: container.set
+      label: Allgemein
+      fields:
+        resources:
+          type: collection.list
+          array: true
+          label: Ressourcen
+          description: Erstelle für jede Ressource die vorgelanden werden soll ein neues Element.
+          value: title
+          ajax: true
+          fields:
+            .enabled:
+              type: input.checkbox
+              label: Aktivieren
+              description: Aktiviert und wendet das Ressourcen Element an.
+              default: 1
+            .path:
+              type: input.text
+              description: Pfad zur Ressource die vorgeladen werden soll.
+              label: Pfad
+            .xorigin:
+              type: input.checkbox
+              label: Crossorigin
+              description: Aktivieren wenn das 'crossorigin'-Attribut verwendet werden soll.
+              default: 1
+            .as:
+              type: input.text
+              description: Wert für das 'as'-Attribut. Leer lassen wenn das Attribut nicht verwendet werden soll.
+              label: As
