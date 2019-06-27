@@ -41,6 +41,19 @@ form:
               label: Enable
               description: Enables this resource item to be applied.
               default: 1
+            .rel:
+              type: select.select
+              label: Rel
+              description: Value of the 'rel'-attribute.
+              placeholder: 'Select...'
+              default: preload
+              options:
+                  preload: preload
+                  dns-prefetch: dns-prefetch
+                  preconnect: preconnect
+                  prefetch: prefetch
+                  subresource: subresource
+                  prerender: prerender
             .path:
               type: input.text
               description: Path to the resources which should be preloaded.
@@ -54,3 +67,7 @@ form:
               type: input.text
               description: Value of the 'as'-attribute. Leave empty for not applying the attribute.
               label: As
+            .type:
+              type: input.text
+              description: Value of the 'type'-Attribut (MIME-Type). Leave empty for not applying the attribute.
+              label: Type

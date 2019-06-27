@@ -41,6 +41,19 @@ form:
               label: Aktivieren
               description: Aktiviert und wendet das Ressourcen Element an.
               default: 1
+            .rel:
+              type: select.select
+              label: Rel
+              description: Wert für das 'rel'-Attribut.
+              placeholder: 'Select...'
+              default: preload
+              options:
+                  preload: preload
+                  dns-prefetch: dns-prefetch
+                  preconnect: preconnect
+                  prefetch: prefetch
+                  subresource: subresource
+                  prerender: prerender
             .path:
               type: input.text
               description: Pfad zur Ressource die vorgeladen werden soll.
@@ -54,3 +67,7 @@ form:
               type: input.text
               description: Wert für das 'as'-Attribut. Leer lassen wenn das Attribut nicht verwendet werden soll.
               label: As
+            .type:
+              type: input.text
+              description: Wert für das 'type'-Attribut (MIME-Type). Leer lassen wenn das Attribut nicht verwendet werden soll.
+              label: Type

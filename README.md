@@ -57,8 +57,15 @@ Please be aware that the template folder path varies in dependence of the used C
 
 ## Supported Parameters and Atom Options
 * Supports multiple `<link>` tags for preloading of resources
+* Support for the following `rel` values
+  * `preload`
+  * `dns-prefetch`
+  * `preconnect`
+  * `prefetch`
+  * `subresource`
+  * `prerender`
 * Selective deactivation of resources
-* Options to define resource type and origin 
+* Options to define resource type, origin and MIME type
 
 ## Showroom
 Insight of the *Preload Resources - Gantry Atom* configuration:

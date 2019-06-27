@@ -21,10 +21,13 @@
             {%- if resItem.as|length > 0 -%}
                 {%- set attributes = attributes ~ ' as="' ~ resItem.as ~ '"' -%}
             {%- endif -%}
+            {%- if resItem.type -%}
+                {%- set attributes = attributes ~ ' type="' ~ resItem.type ~ '"' -%}
+            {%- endif -%}
             {%- if resItem.xorigin -%}
                 {%- set attributes = attributes ~ ' crossorigin' -%}
             {%- endif -%}
-            <link rel="preload"{{attributes|raw}}>
+            <link rel="{{resItem.rel|default('preload')}}"{{attributes|raw}}>
         {%- endif -%}
     {%- endfor -%}
 {%- endpageblock -%}
