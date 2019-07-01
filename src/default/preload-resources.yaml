@@ -39,7 +39,7 @@ form:
                   ajax: true
                   fields:
                     .enabled:
-                      type: input.checkbox
+                      type: enable.enable
                       label: Enable
                       description: Enables this resource item to be applied.
                       default: 1
@@ -61,7 +61,7 @@ form:
                       description: Path to the resources which should be preloaded.
                       label: Path
                     .xorigin:
-                      type: input.checkbox
+                      type: enable.enable
                       label: Crossorigin
                       description: Enable if the 'crossorigin'-attribute should be applied.
                       default: 1

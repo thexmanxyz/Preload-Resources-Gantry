@@ -39,7 +39,7 @@ form:
                   ajax: true
                   fields:
                     .enabled:
-                      type: input.checkbox
+                      type: enable.enable
                       label: Aktivieren
                       description: Aktiviert und wendet das Ressourcen Element an.
                       default: 1
@@ -61,7 +61,7 @@ form:
                       description: Pfad zur Ressource die vorgeladen werden soll.
                       label: Pfad
                     .xorigin:
-                      type: input.checkbox
+                      type: enable.enable
                       label: Crossorigin
                       description: Aktivieren wenn das 'crossorigin'-Attribut verwendet werden soll.
                       default: 1
