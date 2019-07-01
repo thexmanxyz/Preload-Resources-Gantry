@@ -19,7 +19,7 @@ set scr_log_files=0
 
 REM --- project variables ---
 set prj_id=pra
-set prj_rev=v1.0.2
+set prj_rev=v1.0.3
 set prj_name=preload-resources
 set prj_fullname=Preload Resources
 set prj_title_hr=---------------------

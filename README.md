@@ -9,22 +9,22 @@ This project contains a Gantry Atom that provides the functionality to manually 
 * Gantry Templating Framework and Theme - **at least v5.4.24**
 
 ## Download
-Choose the correct download for your target platform. The Joomla Plugin System is supported for all Gantry themes globally or locally for the templates Helium and Hydrogen. The latest Atom version is **v1.0.2**.
+Choose the correct download for your target platform. The Joomla Plugin System is supported for all Gantry themes globally or locally for the templates Helium and Hydrogen. The latest Atom version is **v1.0.3**.
 ___
 **Default Atom:**
-[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.atom.only.EN.v1.0.2.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.atom.only.DE.v1.0.2.zip)
+[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.atom.only.EN.v1.0.3.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.atom.only.DE.v1.0.3.zip)
 
 **Legacy Atom - Gantry <5.3.2:**
-[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.atom.only.legacy.EN.v1.0.2.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.atom.only.legacy.DE.v1.0.2.zip)
+[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.atom.only.legacy.EN.v1.0.3.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.atom.only.legacy.DE.v1.0.3.zip)
 
 **Joomla Plugin - All Templates (Global):**
-[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.global.EN.v1.0.2.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.global.DE.v1.0.2.zip)
+[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.global.EN.v1.0.3.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.global.DE.v1.0.3.zip)
 
 **Joomla Plugin - Hydrogen:**
-[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.hydrogen.EN.v1.0.2.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.hydrogen.DE.v1.0.2.zip)
+[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.hydrogen.EN.v1.0.3.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.hydrogen.DE.v1.0.3.zip)
 
 **Joomla Plugin - Helium:**
-[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.helium.EN.v1.0.2.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.2/pra.j3.helium.DE.v1.0.2.zip)
+[English](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.helium.EN.v1.0.3.zip) / [German](https://github.com/thexmanxyz/Preload-Resources-Gantry/releases/download/v1.0.3/pra.j3.helium.DE.v1.0.3.zip)
 ___
 
 ## Automatic Installation (Joomla only)
