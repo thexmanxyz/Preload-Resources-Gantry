@@ -92,4 +92,4 @@ Insight of the *Preload Resources - Gantry Atom* configuration:
 Thanks to the Gantry team for providing a modern templating framework.
 
 ## by [thex](https://github.com/thexmanxyz) | [gantryprojects](https://gantryprojects.com)
-Copyright (c) 2019, free to use in personal and commercial software as per the [license](/LICENSE.md).
+Copyright (c) 2019, free to use in personal and commercial software as per the [license](/LICENSE).
